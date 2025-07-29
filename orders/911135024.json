@@ -1,0 +1,303 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 911135024,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-20 06:57:13",
+        "created": "2025-07-20 06:42:15",
+        "updated": "2025-07-20 07:50:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 2.3,
+        "totalCharges": 0.0,
+        "subtotal": 22.96,
+        "payableAmount": 25.26,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "None",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "021750",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47395752,
+          "firstName": "Quibble",
+          "lastName": "",
+          "phone": "+919780032269",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496147,
+            "title": "Manhattan Cheesesteak Sandwich",
+            "price": 11.98,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.2,
+            "total": 13.18,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4323818934",
+                "title": "Tax",
+                "value": 1.2,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709067",
+                "title": "Lightly Toasted",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709104",
+                "title": "Extra Cheese",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709133",
+                "title": "Chips",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709133,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709104,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709067,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496149,
+            "title": "Big City BLT",
+            "price": 10.98,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.1,
+            "total": 12.08,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4323818935",
+                "title": "Tax",
+                "value": 1.1,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709067",
+                "title": "Lightly Toasted",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709073",
+                "title": "Mustard",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709133",
+                "title": "Chips",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709235",
+                "title": "Swiss Cheese",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709341",
+                "title": "Lettuce",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709342",
+                "title": "Tomato",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709343",
+                "title": "Onion",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709355",
+                "title": "French Toast Bagel",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709355,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709133,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709067,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709235,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709341,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709342,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709343,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709073,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4345706823",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_c7eae11ef201. Value=0.2526",
+            "updatedBy": null,
+            "created": "2025-07-20 06:42:16",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_c7eae11ef201",
+          "amount": 25,
+          "gwTxnId": "pi_3Rmuh8Rt38BwTo290aZ7L2tP",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-20 | 10:42:13\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 897415293,
+        "type": "pickup",
+        "merchantRefId": "336721",
+        "deliveryDate": "2025-07-02 09:25:26",
+        "created": "2025-07-02 08:40:26",
+        "updated": "2025-07-02 08:55:30",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.0,
+        "totalCharges": 0.0,
+        "subtotal": 0.0,
+        "payableAmount": 0.0,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": "",
+        "aggregatorPayload": "{\n    \"customer\": {\n        \"address\": {\n            \"city\": \"Restaurant Location\",\n            \"country\": \"\",\n            \"instructions\": \"\",\n            \"landmark\": \"\",\n            \"latitude\": 0,\n            \"line_1\": \"Pickup Order - No Address Required\",\n            \"line_2\": \"\",\n            \"longitude\": 0,\n            \"pincode\": \"\"\n        },\n        \"email\": \"noemail@example.com\",\n        \"name\": \"Rohit\",\n        \"phone_number\": \"8949862707\"\n    },\n    \"discounts\": [],\n    \"items\": [\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 0,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574493_5496181\",\n            \"taxes\": [],\n            \"title\": \"Ice Coffee or Tea\",\n            \"total\": 0.0,\n            \"total_with_tax\": 0.0,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"1751460023044\",\n                    \"title\": \"Medium (16oz)\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709410\",\n                    \"title\": \"Decaf Ice Coffee\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709382\",\n                    \"title\": \"Half & Half\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709388\",\n                    \"title\": \"Equal\"\n                }\n            ]\n        }\n    ],\n    \"meta\": {\n        \"charges\": [],\n        \"created\": \"2025-07-02T12:40:23.319643Z\",\n        \"current_status\": \"pending\",\n        \"discount_code\": \"\",\n        \"fulfillment_mode\": \"pickup\",\n        \"instructions\": \"\",\n        \"is_edit\": false,\n        \"is_instant_order\": true,\n        \"item_level_charges\": 0,\n        \"item_level_discount\": 0,\n        \"item_level_taxes\": 0.0,\n        \"location_ref_id\": \"139213\",\n        \"order_level_charges\": 0,\n        \"order_level_discount\": 0,\n        \"order_no\": \"336721\",\n        \"prep_time_details\": {},\n        \"restaurant_name\": \"\",\n        \"sub_total\": 0.0,\n        \"total\": 0.0,\n        \"total_charges\": 0,\n        \"total_discount\": 0,\n        \"total_taxes\": 0.0\n    },\n    \"payment\": {\n        \"amount_balance\": 0,\n        \"amount_paid\": 0.0,\n        \"mode\": null,\n        \"status\": \"pending\"\n    }\n}",
+        "externalPlatform": {
+          "id": "336721",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 894518507,
+          "name": "Rohit",
+          "address1": "Pickup Order - No Address Required, ",
+          "address2": null,
+          "city": "Restaurant Location",
+          "pin": "",
+          "subLocality": "",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46263092,
+          "firstName": "Jitin",
+          "lastName": "",
+          "phone": "8949862707",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496181,
+            "title": "Small Ice Coffee or Drink (16oz)",
+            "price": 0.0,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 0.0,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709382",
+                "title": "Half & Half",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709388",
+                "title": "Equal",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709410",
+                "title": "Decaf Ice Coffee",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709382,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709388,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709410,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4281974347",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-07-02 08:40:27",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4281974515",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-02 08:40:30",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4282019184",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-02 08:55:30",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

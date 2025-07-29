@@ -1,0 +1,183 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 908185190,
+        "type": "pickup",
+        "merchantRefId": "120276",
+        "deliveryDate": "2025-07-16 12:09:34",
+        "created": "2025-07-16 11:24:34",
+        "updated": "2025-07-16 11:39:39",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.2,
+        "totalCharges": 0.0,
+        "subtotal": 1.99,
+        "payableAmount": 2.19,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": "",
+        "aggregatorPayload": "{\n    \"customer\": {\n        \"address\": {\n            \"city\": \"Restaurant Location\",\n            \"country\": \"\",\n            \"instructions\": \"\",\n            \"landmark\": \"\",\n            \"latitude\": 0,\n            \"line_1\": \"Pickup Order - No Address Required\",\n            \"line_2\": \"\",\n            \"longitude\": 0,\n            \"pincode\": \"\"\n        },\n        \"email\": \"noemail@example.com\",\n        \"name\": \"Mehul\",\n        \"phone_number\": \"8949862707\"\n    },\n    \"discounts\": [],\n    \"items\": [\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 0,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574493_5496177\",\n            \"taxes\": [],\n            \"title\": \"HOT Coffee or Tea \",\n            \"total\": 1.99,\n            \"total_with_tax\": 1.99,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 1.99,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709631\",\n                    \"title\": \"Small 12oz\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709379\",\n                    \"title\": \"Decaf\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709381\",\n                    \"title\": \"Regular Milk\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709388\",\n                    \"title\": \"Equal\"\n                }\n            ]\n        }\n    ],\n    \"meta\": {\n        \"charges\": [],\n        \"created\": \"2025-07-16T15:24:33.205155Z\",\n        \"current_status\": \"pending\",\n        \"discount_code\": \"\",\n        \"fulfillment_mode\": \"pickup\",\n        \"instructions\": \"\",\n        \"is_edit\": false,\n        \"is_instant_order\": true,\n        \"item_level_charges\": 0,\n        \"item_level_discount\": 0,\n        \"item_level_taxes\": 0.2,\n        \"location_ref_id\": \"139213\",\n        \"order_level_charges\": 0,\n        \"order_level_discount\": 0,\n        \"order_no\": \"120276\",\n        \"prep_time_details\": {},\n        \"restaurant_name\": \"\",\n        \"sub_total\": 1.99,\n        \"total\": 2.19,\n        \"total_charges\": 0,\n        \"total_discount\": 0,\n        \"total_taxes\": 0.2\n    },\n    \"payment\": {\n        \"amount_balance\": 0,\n        \"amount_paid\": 2.19,\n        \"mode\": null,\n        \"status\": \"pending\"\n    }\n}",
+        "externalPlatform": {
+          "id": "120276",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 905280249,
+          "name": "Mehul",
+          "address1": "Pickup Order - No Address Required, ",
+          "address2": null,
+          "city": "Restaurant Location",
+          "pin": "",
+          "subLocality": "",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46263092,
+          "firstName": "Jitin",
+          "lastName": "",
+          "phone": "8949862707",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496177,
+            "title": "Small Hot Coffee or Tea (12oz)",
+            "price": 1.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 1.99,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709631",
+                "title": "Small 12oz",
+                "price": "1.99",
+                "priceAtLocation": 1.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709379",
+                "title": "Decaf",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709381",
+                "title": "Regular Milk",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709388",
+                "title": "Equal",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709631,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709379,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709381,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709388,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4331892872",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-07-16 11:24:35",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4331893231",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-16 11:24:39",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4331973782",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-16 11:39:39",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 908691011,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-17 07:50:41",
+        "created": "2025-07-17 07:35:44",
+        "updated": "2025-07-17 08:40:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.25,
+        "totalCharges": 0.0,
+        "subtotal": 2.49,
+        "payableAmount": 2.74,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "Add cutlery and a napkin",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "QUIB_ORDER_195291",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46463901,
+          "firstName": "Jipan",
+          "lastName": "",
+          "phone": "+19780032269",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496177,
+            "title": "Small Hot Coffee or Tea (12oz)",
+            "price": 2.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.25,
+            "total": 2.74,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4311891108",
+                "title": "Tax",
+                "value": 0.25,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709632",
+                "title": "Medium 16oz",
+                "price": "2.49",
+                "priceAtLocation": 2.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709382",
+                "title": "Half & Half",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709386",
+                "title": "Sugar",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709632,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709382,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709386,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4334271497",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_50a069e8424b. Value=0.0274",
+            "updatedBy": null,
+            "created": "2025-07-17 07:35:44",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_50a069e8424b",
+          "amount": 2,
+          "gwTxnId": "pi_3Rlq6FRt38BwTo2904ZqFt3z",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-17 | 11:35:42\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

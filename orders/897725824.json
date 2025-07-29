@@ -1,0 +1,244 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 897725824,
+        "type": "pickup",
+        "merchantRefId": "721519",
+        "deliveryDate": "2025-07-02 15:07:53",
+        "created": "2025-07-02 14:22:53",
+        "updated": "2025-07-02 14:37:57",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 1.13,
+        "totalCharges": 0.0,
+        "subtotal": 11.28,
+        "payableAmount": 12.41,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": "",
+        "aggregatorPayload": "{\n    \"customer\": {\n        \"address\": {\n            \"city\": \"Restaurant Location\",\n            \"country\": \"\",\n            \"instructions\": \"\",\n            \"landmark\": \"\",\n            \"latitude\": 0,\n            \"line_1\": \"Pickup Order - No Address Required\",\n            \"line_2\": \"\",\n            \"longitude\": 0,\n            \"pincode\": \"\"\n        },\n        \"email\": \"noemail@example.com\",\n        \"name\": \"Joan\",\n        \"phone_number\": \"9088427195\"\n    },\n    \"discounts\": [],\n    \"items\": [\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 3.29,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574488_5496124\",\n            \"taxes\": [],\n            \"title\": \"Bagel With Spread\",\n            \"total\": 3.79,\n            \"total_with_tax\": 3.79,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709022\",\n                    \"title\": \"Cinnamon Raisin\"\n                },\n                {\n                    \"price_per_unit\": 0.5,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709210\",\n                    \"title\": \"Plain Cream Cheese\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709066\",\n                    \"title\": \"Toasted\"\n                }\n            ]\n        },\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 7.49,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574487_5496102\",\n            \"taxes\": [],\n            \"title\": \"Original Classic\",\n            \"total\": 7.49,\n            \"total_with_tax\": 7.49,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709015\",\n                    \"title\": \"Everything\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709050\",\n                    \"title\": \"Pork Roll\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709059\",\n                    \"title\": \"American\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709092\",\n                    \"title\": \"Scrambled\"\n                }\n            ]\n        }\n    ],\n    \"meta\": {\n        \"charges\": [],\n        \"created\": \"2025-07-02T18:22:51.581785Z\",\n        \"current_status\": \"pending\",\n        \"discount_code\": \"\",\n        \"fulfillment_mode\": \"pickup\",\n        \"instructions\": \"\",\n        \"is_edit\": false,\n        \"is_instant_order\": true,\n        \"item_level_charges\": 0,\n        \"item_level_discount\": 0,\n        \"item_level_taxes\": 1.13,\n        \"location_ref_id\": \"139213\",\n        \"order_level_charges\": 0,\n        \"order_level_discount\": 0,\n        \"order_no\": \"721519\",\n        \"prep_time_details\": {},\n        \"restaurant_name\": \"\",\n        \"sub_total\": 11.280000000000001,\n        \"total\": 12.41,\n        \"total_charges\": 0,\n        \"total_discount\": 0,\n        \"total_taxes\": 1.13\n    },\n    \"payment\": {\n        \"amount_balance\": 0,\n        \"amount_paid\": 11.280000000000001,\n        \"mode\": null,\n        \"status\": \"pending\"\n    }\n}",
+        "externalPlatform": {
+          "id": "721519",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 894828832,
+          "name": "Joan",
+          "address1": "Pickup Order - No Address Required, ",
+          "address2": null,
+          "city": "Restaurant Location",
+          "pin": "",
+          "subLocality": "",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47058787,
+          "firstName": "Joan",
+          "lastName": "",
+          "phone": "9088427195",
+          "email": "noemail@example.com",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496124,
+            "title": "Bagel With Spread",
+            "price": 3.79,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 3.79,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709022",
+                "title": "Cinnamon Raisin",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709066",
+                "title": "Toasted",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709210",
+                "title": "Plain Cream Cheese",
+                "price": "0.5",
+                "priceAtLocation": 0.5,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709022,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709066,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709210,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496102,
+            "title": "Original Classic",
+            "price": 7.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 7.49,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709015",
+                "title": "Everything",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709050",
+                "title": "Pork Roll",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709059",
+                "title": "American",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709092",
+                "title": "Scrambled",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709015,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709050,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709059,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709092,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4283433689",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-07-02 14:22:53",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4283433848",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-02 14:22:57",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4283471189",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-02 14:37:57",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 902094088,
+        "type": "pickup",
+        "merchantRefId": "950144",
+        "deliveryDate": "2025-07-08 10:40:22",
+        "created": "2025-07-08 09:55:22",
+        "updated": "2025-07-08 14:34:02",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 1.67,
+        "totalCharges": 0.0,
+        "subtotal": 16.72,
+        "payableAmount": 18.39,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "COMPLETED",
+        "instructions": "",
+        "nextStates": [
+          "CANCELLED"
+        ],
+        "nextState": "CANCELLED",
+        "couponText": "",
+        "aggregatorPayload": "{\n    \"customer\": {\n        \"address\": {\n            \"city\": \"Restaurant Location\",\n            \"country\": \"\",\n            \"instructions\": \"\",\n            \"landmark\": \"\",\n            \"latitude\": 0,\n            \"line_1\": \"Pickup Order - No Address Required\",\n            \"line_2\": \"\",\n            \"longitude\": 0,\n            \"pincode\": \"\"\n        },\n        \"email\": \"noemail@example.com\",\n        \"name\": \"Josh\",\n        \"phone_number\": \"9084000817\"\n    },\n    \"discounts\": [],\n    \"items\": [\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 7.49,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574487_5496102\",\n            \"taxes\": [],\n            \"title\": \"Original Classic\",\n            \"total\": 10.98,\n            \"total_with_tax\": 10.98,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709015\",\n                    \"title\": \"Everything\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709049\",\n                    \"title\": \"Bacon\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709059\",\n                    \"title\": \"American\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709066\",\n                    \"title\": \"Toasted\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709069\",\n                    \"title\": \"Salt\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709070\",\n                    \"title\": \"Pepper\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709071\",\n                    \"title\": \"Ketchup\"\n                },\n                {\n                    \"price_per_unit\": 1.99,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709083\",\n                    \"title\": \"Avocado\"\n                },\n                {\n                    \"price_per_unit\": 1.5,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709105\",\n                    \"title\": \"1 EXTRA Egg\"\n                }\n            ]\n        },\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 0,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574493_5496193\",\n            \"taxes\": [],\n            \"title\": \"Hot Latte\",\n            \"total\": 5.74,\n            \"total_with_tax\": 5.74,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 4.99,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709700\",\n                    \"title\": \"Large 20oz\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709426\",\n                    \"title\": \"Regular Milk\"\n                },\n                {\n                    \"price_per_unit\": 0.75,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709394\",\n                    \"title\": \"Vanilla Syrup\"\n                }\n            ]\n        }\n    ],\n    \"meta\": {\n        \"charges\": [],\n        \"created\": \"2025-07-08T13:55:20.616400Z\",\n        \"current_status\": \"pending\",\n        \"discount_code\": \"\",\n        \"fulfillment_mode\": \"pickup\",\n        \"instructions\": \"\",\n        \"is_edit\": false,\n        \"is_instant_order\": true,\n        \"item_level_charges\": 0,\n        \"item_level_discount\": 0,\n        \"item_level_taxes\": 1.67,\n        \"location_ref_id\": \"139213\",\n        \"order_level_charges\": 0,\n        \"order_level_discount\": 0,\n        \"order_no\": \"950144\",\n        \"prep_time_details\": {},\n        \"restaurant_name\": \"\",\n        \"sub_total\": 16.72,\n        \"total\": 18.39,\n        \"total_charges\": 0,\n        \"total_discount\": 0,\n        \"total_taxes\": 1.67\n    },\n    \"payment\": {\n        \"amount_balance\": 0,\n        \"amount_paid\": 16.72,\n        \"mode\": null,\n        \"status\": \"pending\"\n    }\n}",
+        "externalPlatform": {
+          "id": "950144",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 899193467,
+          "name": "Josh",
+          "address1": "Pickup Order - No Address Required, ",
+          "address2": null,
+          "city": "Restaurant Location",
+          "pin": "",
+          "subLocality": "",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47057682,
+          "firstName": "Josh",
+          "lastName": "",
+          "phone": "9084000817",
+          "email": "noemail@example.com",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496102,
+            "title": "Original Classic",
+            "price": 10.98,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 10.98,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709015",
+                "title": "Everything",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709049",
+                "title": "Bacon",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709059",
+                "title": "American",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709066",
+                "title": "Toasted",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709069",
+                "title": "Salt",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709070",
+                "title": "Pepper",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709071",
+                "title": "Ketchup",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709083",
+                "title": "Avocado",
+                "price": "1.99",
+                "priceAtLocation": 1.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709105",
+                "title": "1 EXTRA Egg",
+                "price": "1.5",
+                "priceAtLocation": 1.5,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709015,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709049,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709059,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709066,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709069,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709070,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709071,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709083,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709105,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496193,
+            "title": "Small Hot Latte (12oz)",
+            "price": 5.74,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 5.74,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709700",
+                "title": "Large 20oz",
+                "price": "4.99",
+                "priceAtLocation": 4.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709394",
+                "title": "Vanilla Syrup",
+                "price": "0.75",
+                "priceAtLocation": 0.75,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709426",
+                "title": "Regular Milk",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709700,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709394,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709426,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4303612220",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-07-08 09:55:22",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4303612490",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-08 09:55:27",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4303675560",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-08 10:10:27",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4304800730",
+            "status": "DISPATCHED",
+            "prevStatus": "FOOD_READY",
+            "message": "Updated By arnav.senapathi@urbanpiper.com",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-08 14:30:30",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4304809003",
+            "status": "COMPLETED",
+            "prevStatus": "DISPATCHED",
+            "message": "Updated By arnav.senapathi@urbanpiper.com",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-08 14:34:02",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

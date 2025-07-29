@@ -1,0 +1,126 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 908080588,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-16 10:02:37",
+        "created": "2025-07-16 09:47:39",
+        "updated": "2025-07-16 10:50:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.75,
+        "totalCharges": 0.0,
+        "subtotal": 7.48,
+        "payableAmount": 8.23,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-L2924698",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Westfield NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46447911,
+          "firstName": "Ace",
+          "lastName": "Jack",
+          "phone": "+13215054148",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496098,
+            "title": "Mint Pistachio Chillerz",
+            "price": 7.48,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.75,
+            "total": 8.23,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4309087509",
+                "title": "Tax",
+                "value": 0.75,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709011",
+                "title": "24oz",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709011,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_cb91d1ec5804",
+          "amount": 8,
+          "gwTxnId": "pi_3RlVgMRt38BwTo290ZJYcgHe",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-16 | 13:47:38\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

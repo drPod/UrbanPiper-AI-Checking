@@ -1,0 +1,302 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 912123707,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-21 11:24:32",
+        "created": "2025-07-21 11:09:36",
+        "updated": "2025-07-21 12:10:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 2.15,
+        "totalCharges": 0.0,
+        "subtotal": 21.49,
+        "payableAmount": 23.64,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "818875",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47395752,
+          "firstName": "Quibble",
+          "lastName": "",
+          "phone": "+919780032269",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496205,
+            "title": "Small Americano (12oz)",
+            "price": 7.53,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.75,
+            "total": 8.28,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4328631162",
+                "title": "Tax",
+                "value": 0.75,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709711",
+                "title": "Medium 16oz",
+                "price": "3.79",
+                "priceAtLocation": 3.79,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709393",
+                "title": "Hazelnut Syrup",
+                "price": "0.75",
+                "priceAtLocation": 0.75,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709425",
+                "title": "DECAF",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709429",
+                "title": "Almond Milk",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709432",
+                "title": "Single",
+                "price": "1.99",
+                "priceAtLocation": 1.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709711,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709429,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709393,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709425,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709432,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496135,
+            "title": "muffins",
+            "price": 3.49,
+            "quantity": 2,
+            "totalCharge": 0.0,
+            "totalTax": 0.7,
+            "total": 7.68,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4328631165",
+                "title": "Tax",
+                "value": 0.7,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709277",
+                "title": "Cinnamon Chip",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709281",
+                "title": "Lightly Toasted",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709277,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709281,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496135,
+            "title": "muffins",
+            "price": 3.49,
+            "quantity": 2,
+            "totalCharge": 0.0,
+            "totalTax": 0.7,
+            "total": 7.68,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4328631168",
+                "title": "Tax",
+                "value": 0.7,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709279",
+                "title": "Cranberry Orange",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709282",
+                "title": "Toasted Dark",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709279,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709282,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4350326764",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_30986cb9822b. Value=0.2364",
+            "updatedBy": null,
+            "created": "2025-07-21 11:09:37",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_30986cb9822b",
+          "amount": 23,
+          "gwTxnId": "pi_3RnLLNRt38BwTo291WHqdhv8",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-21 | 15:09:32\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

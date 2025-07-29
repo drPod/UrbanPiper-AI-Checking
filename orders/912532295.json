@@ -1,0 +1,228 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 912532295,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-22 05:30:48",
+        "created": "2025-07-22 05:15:50",
+        "updated": "2025-07-22 06:20:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 2.32,
+        "totalCharges": 0.0,
+        "subtotal": 23.22,
+        "payableAmount": 25.54,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "Avoid onions, make food spicy",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "894958",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47395752,
+          "firstName": "Quibble",
+          "lastName": "",
+          "phone": "+919780032269",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496177,
+            "title": "Small Hot Coffee or Tea (12oz)",
+            "price": 3.24,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.32,
+            "total": 3.56,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4330434872",
+                "title": "Tax",
+                "value": 0.32,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709632",
+                "title": "Medium 16oz",
+                "price": "2.49",
+                "priceAtLocation": 2.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709377",
+                "title": "Vanilla Hazelnut Blend",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709381",
+                "title": "Regular Milk",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709393",
+                "title": "Hazelnut Syrup",
+                "price": "0.75",
+                "priceAtLocation": 0.75,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709632,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709377,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709381,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709393,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496139,
+            "title": "Sweet & Savory French Toast Platter",
+            "price": 11.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.2,
+            "total": 13.19,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4330434875",
+                "title": "Tax",
+                "value": 1.2,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496141,
+            "title": "Just French Toast",
+            "price": 7.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.8,
+            "total": 8.79,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4330434877",
+                "title": "Tax",
+                "value": 0.8,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4352237594",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_af023543d0d6. Value=0.2554",
+            "updatedBy": null,
+            "created": "2025-07-22 05:15:51",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_af023543d0d6",
+          "amount": 25,
+          "gwTxnId": "pi_3RncIbRt38BwTo2919sgTwmB",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-22 | 09:15:48\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

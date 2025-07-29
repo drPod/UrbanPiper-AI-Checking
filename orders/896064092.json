@@ -1,0 +1,141 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 896064092,
+        "type": "pickup",
+        "merchantRefId": "271895",
+        "deliveryDate": "2025-06-30 09:51:47",
+        "created": "2025-06-30 09:06:47",
+        "updated": "2025-06-30 09:21:51",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 2.79,
+        "totalCharges": 0.0,
+        "subtotal": 27.99,
+        "payableAmount": 30.78,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": "",
+        "aggregatorPayload": "{\n    \"customer\": {\n        \"address\": {\n            \"city\": \"Restaurant Location\",\n            \"country\": \"\",\n            \"instructions\": \"\",\n            \"landmark\": \"\",\n            \"latitude\": 0,\n            \"line_1\": \"Pickup Order - No Address Required\",\n            \"line_2\": \"\",\n            \"longitude\": 0,\n            \"pincode\": \"\"\n        },\n        \"email\": \"noemail@example.com\",\n        \"name\": \"Sandy\",\n        \"phone_number\": \"3215054148\"\n    },\n    \"discounts\": [],\n    \"items\": [\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 27.99,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574488_5496123\",\n            \"taxes\": [],\n            \"title\": \"Bakers Dozen Value Pack\",\n            \"total\": 27.99,\n            \"total_with_tax\": 27.99,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709196\",\n                    \"title\": \"Plain Cream Cheese\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"1751288806037\",\n                    \"title\": \"Scallion Cream Cheese\"\n                }\n            ]\n        }\n    ],\n    \"meta\": {\n        \"charges\": [],\n        \"created\": \"2025-06-30T13:06:46.233932Z\",\n        \"current_status\": \"pending\",\n        \"discount_code\": \"\",\n        \"fulfillment_mode\": \"pickup\",\n        \"instructions\": \"\",\n        \"is_edit\": false,\n        \"is_instant_order\": true,\n        \"item_level_charges\": 0,\n        \"item_level_discount\": 0,\n        \"item_level_taxes\": 2.79,\n        \"location_ref_id\": \"139213\",\n        \"order_level_charges\": 0,\n        \"order_level_discount\": 0,\n        \"order_no\": \"271895\",\n        \"prep_time_details\": {},\n        \"restaurant_name\": \"\",\n        \"sub_total\": 27.99,\n        \"total\": 30.779999999999998,\n        \"total_charges\": 0,\n        \"total_discount\": 0,\n        \"total_taxes\": 2.79\n    },\n    \"payment\": {\n        \"amount_balance\": 0,\n        \"amount_paid\": 27.99,\n        \"mode\": null,\n        \"status\": \"pending\"\n    }\n}",
+        "externalPlatform": {
+          "id": "271895",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 893168570,
+          "name": "Sandy",
+          "address1": "Pickup Order - No Address Required, ",
+          "address2": null,
+          "city": "Restaurant Location",
+          "pin": "",
+          "subLocality": "",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46447911,
+          "firstName": "Ace",
+          "lastName": "Jack",
+          "phone": "3215054148",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496123,
+            "title": "Bakers Dozen Value Pack",
+            "price": 27.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 27.99,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709196",
+                "title": "Plain Cream Cheese",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709196,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4275767466",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-06-30 09:06:48",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4275767597",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-06-30 09:06:51",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4275812948",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-06-30 09:21:51",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

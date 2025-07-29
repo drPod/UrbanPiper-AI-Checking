@@ -1,0 +1,199 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 909028386,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-17 14:10:44",
+        "created": "2025-07-17 13:55:45",
+        "updated": "2025-07-17 13:59:02",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 2.9,
+        "totalCharges": 0.0,
+        "subtotal": 28.96,
+        "payableAmount": 31.86,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "CANCELLED",
+        "instructions": "Pay on Pickup",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-O2968594",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Westfield NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47092363,
+          "firstName": "John",
+          "lastName": "Smith",
+          "phone": "+17795874242",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496167,
+            "title": "Egg Salad 1/2 lb",
+            "price": 6.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.7,
+            "total": 7.69,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4313554694",
+                "title": "Tax",
+                "value": 0.7,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496175,
+            "title": "American Cheese 1/2 lb",
+            "price": 4.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.5,
+            "total": 5.49,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4313554695",
+                "title": "Tax",
+                "value": 0.5,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496169,
+            "title": "Boars Head Pastrami 1/2 lb",
+            "price": 9.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.0,
+            "total": 10.99,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4313554696",
+                "title": "Tax",
+                "value": 1.0,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496172,
+            "title": "Tuna Salad 1/2 lb",
+            "price": 6.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.7,
+            "total": 7.69,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4313554697",
+                "title": "Tax",
+                "value": 0.7,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4335858760",
+            "status": "PLACED",
+            "prevStatus": null,
+            "message": "Order placed",
+            "updatedBy": null,
+            "created": "2025-07-17 13:55:45",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4335869211",
+            "status": "CANCELLED",
+            "prevStatus": "PLACED",
+            "message": "Remarks: zxcxz sdasd xcvxcv. Reason: Unspecified. Updated By System",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-17 13:59:02",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

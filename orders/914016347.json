@@ -1,0 +1,120 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 914016347,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-24 07:49:52",
+        "created": "2025-07-24 07:39:55",
+        "updated": "2025-07-24 08:40:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.53,
+        "totalCharges": 0.0,
+        "subtotal": 7.99,
+        "payableAmount": 8.52,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "Send French toast with cutlery",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "171875",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47395752,
+          "firstName": "Quibble",
+          "lastName": "",
+          "phone": "+919780032269",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496141,
+            "title": "Just French Toast",
+            "price": 7.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.53,
+            "total": 8.52,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4337343907",
+                "title": "Tax",
+                "value": 0.53,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4359157091",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_3b0fcbe212c9. Value=0.0852",
+            "updatedBy": null,
+            "created": "2025-07-24 07:39:55",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_3b0fcbe212c9",
+          "amount": 8,
+          "gwTxnId": "pi_3RoNV8Rt38BwTo291GZkqlMo",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-24 | 11:39:53\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

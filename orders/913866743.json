@@ -1,0 +1,274 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 913866743,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-24 04:10:04",
+        "created": "2025-07-24 04:00:06",
+        "updated": "2025-07-24 05:10:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 2.21,
+        "totalCharges": 0.0,
+        "subtotal": 33.46,
+        "payableAmount": 35.67,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "No food allergies. Please pack the food properly with no dirt around the package.",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "449416",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46231966,
+          "firstName": "Quibble",
+          "lastName": "",
+          "phone": "+918949862707",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496147,
+            "title": "Manhattan Cheesesteak Sandwich",
+            "price": 12.98,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.86,
+            "total": 13.84,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4336635569",
+                "title": "Tax",
+                "value": 0.86,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709068",
+                "title": "Toasted Dark",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709104",
+                "title": "Extra Cheese",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709135",
+                "title": "Lays Chips",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709135,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709104,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709068,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496193,
+            "title": "Small Hot Latte (12oz)",
+            "price": 5.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.36,
+            "total": 5.85,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4336635570",
+                "title": "Tax",
+                "value": 0.36,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709699",
+                "title": "Medium 16oz",
+                "price": "4.49",
+                "priceAtLocation": 4.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709425",
+                "title": "DECAF",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709430",
+                "title": "Oat Milk",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709699,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709430,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709425,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496224,
+            "title": "12oz Fresh Squeezed Orange Juice",
+            "price": 14.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.99,
+            "total": 15.98,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4336635571",
+                "title": "Tax",
+                "value": 0.99,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709717",
+                "title": "32oz",
+                "price": "14.99",
+                "priceAtLocation": 14.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709717,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4358446665",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_b44d5386bd5a. Value=0.3567",
+            "updatedBy": null,
+            "created": "2025-07-24 04:00:07",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_b44d5386bd5a",
+          "amount": 35,
+          "gwTxnId": "pi_3RoK4PRt38BwTo291okXbrBP",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-24 | 08:00:04\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

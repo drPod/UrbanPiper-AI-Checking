@@ -1,0 +1,153 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 914398445,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-24 15:13:05",
+        "created": "2025-07-24 15:03:06",
+        "updated": "2025-07-24 15:08:15",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.5,
+        "totalCharges": 0.0,
+        "subtotal": 7.48,
+        "payableAmount": 7.98,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-G2979190",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Westfield NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47444552,
+          "firstName": "Prime",
+          "lastName": "User",
+          "phone": "+17798764321",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496098,
+            "title": "Mint Pistachio Chillerz",
+            "price": 7.48,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.5,
+            "total": 7.98,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4339181419",
+                "title": "Tax",
+                "value": 0.5,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709011",
+                "title": "24oz",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709011,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4360959004",
+            "status": "PLACED",
+            "prevStatus": null,
+            "message": "Order placed",
+            "updatedBy": null,
+            "created": "2025-07-24 15:03:06",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4360959168",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-24 15:03:10",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4360969359",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "Updated By System",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-24 15:08:15",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

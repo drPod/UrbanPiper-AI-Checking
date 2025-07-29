@@ -1,0 +1,150 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 913664082,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-23 14:41:48",
+        "created": "2025-07-23 14:31:50",
+        "updated": "2025-07-23 15:40:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 1.85,
+        "totalCharges": 0.0,
+        "subtotal": 27.99,
+        "payableAmount": 29.84,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "None",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "328347",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46270044,
+          "firstName": "Azan",
+          "lastName": "",
+          "phone": "+14083338920",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496123,
+            "title": "Bakers Dozen Value Pack",
+            "price": 27.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.85,
+            "total": 29.84,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4335791381",
+                "title": "Tax",
+                "value": 1.85,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709165",
+                "title": "Plain",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709196",
+                "title": "Plain Cream Cheese",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709165,
+                "quantity": 13,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709196,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4357539582",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_a67100fd332c. Value=0.2984",
+            "updatedBy": null,
+            "created": "2025-07-23 14:31:51",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_a67100fd332c",
+          "amount": 29,
+          "gwTxnId": "pi_3Ro7SDRt38BwTo291hIds5QZ",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-23 | 18:31:48\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

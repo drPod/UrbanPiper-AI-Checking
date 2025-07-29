@@ -1,0 +1,159 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 908112010,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-16 10:34:39",
+        "created": "2025-07-16 10:19:41",
+        "updated": "2025-07-16 10:38:08",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.35,
+        "totalCharges": 0.0,
+        "subtotal": 3.49,
+        "payableAmount": 3.84,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-F2928451",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46279167,
+          "firstName": "Azaan",
+          "lastName": "Test",
+          "phone": "+12149402918",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496101,
+            "title": "Fruity Rice Crispy Treat",
+            "price": 3.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.35,
+            "total": 3.84,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4309252322",
+                "title": "Tax",
+                "value": 0.35,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4331556934",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_735dcedaf785. Value=0.0384",
+            "updatedBy": null,
+            "created": "2025-07-16 10:19:41",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4331637308",
+            "status": "PLACED",
+            "prevStatus": "AWAITING_PAYMENT",
+            "message": "Setting order to 'Placed' after callback",
+            "updatedBy": null,
+            "created": "2025-07-16 10:36:14",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4331644443",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "Updated By deepak.kumar@urbanpiper.com",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-16 10:37:39",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4331646860",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "Updated By deepak.kumar@urbanpiper.com",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-16 10:38:08",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_735dcedaf785",
+          "amount": 3,
+          "gwTxnId": "pi_3RlWBMRt38BwTo290yro4zxK",
+          "state": "completed",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-16 | 14:19:39\", \"extra_details\": {}}]}, {\"state\": \"completed\", \"comments\": null}]",
+          "paymentMethod": "Credit Card",
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

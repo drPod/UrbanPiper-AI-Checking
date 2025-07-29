@@ -1,0 +1,110 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 908078231,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-16 09:59:55",
+        "created": "2025-07-16 09:44:57",
+        "updated": "2025-07-16 10:50:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.7,
+        "totalCharges": 0.0,
+        "subtotal": 6.98,
+        "payableAmount": 7.68,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "test",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-F2954445",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46279167,
+          "firstName": "Azaan",
+          "lastName": "Test",
+          "phone": "+12149402918",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496101,
+            "title": "Fruity Rice Crispy Treat",
+            "price": 3.49,
+            "quantity": 2,
+            "totalCharge": 0.0,
+            "totalTax": 0.7,
+            "total": 7.68,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4309075456",
+                "title": "Tax",
+                "value": 0.7,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_85436daf3b1d",
+          "amount": 7,
+          "gwTxnId": "pi_3RlVdkRt38BwTo29074lBhBv",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-16 | 13:44:55\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

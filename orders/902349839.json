@@ -1,0 +1,347 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 902349839,
+        "type": "pickup",
+        "merchantRefId": "493969",
+        "deliveryDate": "2025-07-08 15:27:41",
+        "created": "2025-07-08 14:42:41",
+        "updated": "2025-07-08 14:43:45",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 3.29,
+        "totalCharges": 0.0,
+        "subtotal": 32.95,
+        "payableAmount": 36.24,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "COMPLETED",
+        "instructions": "",
+        "nextStates": [
+          "CANCELLED"
+        ],
+        "nextState": "CANCELLED",
+        "couponText": "",
+        "aggregatorPayload": "{\n    \"customer\": {\n        \"address\": {\n            \"city\": \"Restaurant Location\",\n            \"country\": \"\",\n            \"instructions\": \"\",\n            \"landmark\": \"\",\n            \"latitude\": 0,\n            \"line_1\": \"Pickup Order - No Address Required\",\n            \"line_2\": \"\",\n            \"longitude\": 0,\n            \"pincode\": \"\"\n        },\n        \"email\": \"noemail@example.com\",\n        \"name\": \"Sonu\",\n        \"phone_number\": \"9725155417\"\n    },\n    \"discounts\": [],\n    \"items\": [\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 9.99,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574490_5496151\",\n            \"taxes\": [],\n            \"title\": \"Avocado BLT Sandwich\",\n            \"total\": 19.47,\n            \"total_with_tax\": 19.47,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709346\",\n                    \"title\": \"Asiago Bagel\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709068\",\n                    \"title\": \"Toasted Dark\"\n                },\n                {\n                    \"price_per_unit\": 1.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709339\",\n                    \"title\": \"Jalapeno Peppers\"\n                },\n                {\n                    \"price_per_unit\": 1.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709334\",\n                    \"title\": \"Spinach\"\n                },\n                {\n                    \"price_per_unit\": 1.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709237\",\n                    \"title\": \"Provolone Cheese\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709073\",\n                    \"title\": \"Mustard\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709074\",\n                    \"title\": \"Hot Sauce\"\n                },\n                {\n                    \"price_per_unit\": 4.99,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709332\",\n                    \"title\": \"Double Lunch Protein\"\n                },\n                {\n                    \"price_per_unit\": 1.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709135\",\n                    \"title\": \"Lays Chips\"\n                }\n            ]\n        },\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 10.99,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574490_5496153\",\n            \"taxes\": [],\n            \"title\": \"Chicken Cuban\",\n            \"total\": 10.99,\n            \"total_with_tax\": 10.99,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709066\",\n                    \"title\": \"Toasted\"\n                }\n            ]\n        },\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 0,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574493_5496177\",\n            \"taxes\": [],\n            \"title\": \"HOT Coffee or Tea \",\n            \"total\": 2.49,\n            \"total_with_tax\": 2.49,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 2.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709632\",\n                    \"title\": \"Medium 16oz\"\n                }\n            ]\n        }\n    ],\n    \"meta\": {\n        \"charges\": [],\n        \"created\": \"2025-07-08T18:42:39.490460Z\",\n        \"current_status\": \"pending\",\n        \"discount_code\": \"\",\n        \"fulfillment_mode\": \"pickup\",\n        \"instructions\": \"\",\n        \"is_edit\": false,\n        \"is_instant_order\": true,\n        \"item_level_charges\": 0,\n        \"item_level_discount\": 0,\n        \"item_level_taxes\": 3.29,\n        \"location_ref_id\": \"139213\",\n        \"order_level_charges\": 0,\n        \"order_level_discount\": 0,\n        \"order_no\": \"493969\",\n        \"prep_time_details\": {},\n        \"restaurant_name\": \"\",\n        \"sub_total\": 32.95,\n        \"total\": 36.24,\n        \"total_charges\": 0,\n        \"total_discount\": 0,\n        \"total_taxes\": 3.29\n    },\n    \"payment\": {\n        \"amount_balance\": 0,\n        \"amount_paid\": 32.95,\n        \"mode\": null,\n        \"status\": \"pending\"\n    }\n}",
+        "externalPlatform": {
+          "id": "493969",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 899449082,
+          "name": "Sonu",
+          "address1": "Pickup Order - No Address Required, ",
+          "address2": null,
+          "city": "Restaurant Location",
+          "pin": "",
+          "subLocality": "",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46923848,
+          "firstName": "Sonu",
+          "lastName": "",
+          "phone": "9725155417",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496151,
+            "title": "Avocado BLT Sandwich",
+            "price": 19.47,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 19.47,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709068",
+                "title": "Toasted Dark",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709073",
+                "title": "Mustard",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709074",
+                "title": "Hot Sauce",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709135",
+                "title": "Lays Chips",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709237",
+                "title": "Provolone Cheese",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709332",
+                "title": "Double Lunch Protein",
+                "price": "4.99",
+                "priceAtLocation": 4.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709334",
+                "title": "Spinach",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709339",
+                "title": "Jalapeno Peppers",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709346",
+                "title": "Asiago Bagel",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709068,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709073,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709074,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709135,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709237,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709332,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709334,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709339,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709346,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496153,
+            "title": "Chicken Cuban",
+            "price": 10.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 10.99,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709066",
+                "title": "Toasted",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709066,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496177,
+            "title": "Small Hot Coffee or Tea (12oz)",
+            "price": 2.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 2.49,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709632",
+                "title": "Medium 16oz",
+                "price": "2.49",
+                "priceAtLocation": 2.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709632,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4304829147",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-07-08 14:42:41",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4304829285",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-08 14:42:45",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4304830424",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "Updated By arnav.senapathi@urbanpiper.com",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-08 14:43:13",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4304830832",
+            "status": "DISPATCHED",
+            "prevStatus": "FOOD_READY",
+            "message": "Updated By arnav.senapathi@urbanpiper.com",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-08 14:43:23",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4304831652",
+            "status": "COMPLETED",
+            "prevStatus": "DISPATCHED",
+            "message": "Updated By arnav.senapathi@urbanpiper.com",
+            "updatedBy": {
+              "id": 20960826,
+              "username": "sys_user_prime",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-08 14:43:45",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

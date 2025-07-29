@@ -1,0 +1,328 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 906369468,
+        "type": "pickup",
+        "merchantRefId": "614958",
+        "deliveryDate": "2025-07-13 16:31:26",
+        "created": "2025-07-13 15:46:26",
+        "updated": "2025-07-13 16:01:30",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 6.55,
+        "totalCharges": 0.0,
+        "subtotal": 65.67,
+        "payableAmount": 72.22,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": "",
+        "aggregatorPayload": "{\n    \"customer\": {\n        \"address\": {\n            \"city\": \"Restaurant Location\",\n            \"country\": \"\",\n            \"instructions\": \"\",\n            \"landmark\": \"\",\n            \"latitude\": 0,\n            \"line_1\": \"Pickup Order - No Address Required\",\n            \"line_2\": \"\",\n            \"longitude\": 0,\n            \"pincode\": \"\"\n        },\n        \"email\": \"noemail@example.com\",\n        \"name\": \"Jiten\",\n        \"phone_number\": \"9780032269\"\n    },\n    \"discounts\": [],\n    \"items\": [\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 29.99,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574501_5496247\",\n            \"taxes\": [],\n            \"title\": \"Breakfast Bundle\",\n            \"total\": 62.42999999999999,\n            \"total_with_tax\": 62.42999999999999,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 1.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709591\",\n                    \"title\": \"Gluten Free\"\n                },\n                {\n                    \"price_per_unit\": 1.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709591\",\n                    \"title\": \"Gluten Free\"\n                },\n                {\n                    \"price_per_unit\": 1.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709591\",\n                    \"title\": \"Gluten Free\"\n                },\n                {\n                    \"price_per_unit\": 1.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709591\",\n                    \"title\": \"Gluten Free\"\n                },\n                {\n                    \"price_per_unit\": 1.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709591\",\n                    \"title\": \"Gluten Free\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709601\",\n                    \"title\": \"Sesame\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709601\",\n                    \"title\": \"Sesame\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709578\",\n                    \"title\": \"Plain\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709578\",\n                    \"title\": \"Plain\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709578\",\n                    \"title\": \"Plain\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709578\",\n                    \"title\": \"Plain\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709581\",\n                    \"title\": \"Blueberry\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709581\",\n                    \"title\": \"Blueberry\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709607\",\n                    \"title\": \"Plain Cream Cheese\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709615\",\n                    \"title\": \"Strawberry\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709624\",\n                    \"title\": \"Cinnamon Chip\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709624\",\n                    \"title\": \"Cinnamon Chip\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709624\",\n                    \"title\": \"Cinnamon Chip\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709624\",\n                    \"title\": \"Cinnamon Chip\"\n                },\n                {\n                    \"price_per_unit\": 24.99,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709626\",\n                    \"title\": \"House Blend\"\n                }\n            ]\n        },\n        {\n            \"addons\": [],\n            \"charges\": [],\n            \"discount\": 0.0,\n            \"price_per_unit\": 0,\n            \"quantity\": 1,\n            \"ref_id\": \"itm_574493_5496177\",\n            \"taxes\": [],\n            \"title\": \"HOT Coffee or Tea \",\n            \"total\": 3.24,\n            \"total_with_tax\": 3.24,\n            \"variants\": [\n                {\n                    \"price_per_unit\": 2.49,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709632\",\n                    \"title\": \"Medium 16oz\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709378\",\n                    \"title\": \"Dark Roast\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709382\",\n                    \"title\": \"Half & Half\"\n                },\n                {\n                    \"price_per_unit\": 0.75,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709401\",\n                    \"title\": \"Whipped Cream\"\n                },\n                {\n                    \"price_per_unit\": 0.0,\n                    \"quantity\": 1,\n                    \"ref_id\": \"5709386\",\n                    \"title\": \"Sugar\"\n                }\n            ]\n        }\n    ],\n    \"meta\": {\n        \"charges\": [],\n        \"created\": \"2025-07-13T19:46:24.502742Z\",\n        \"current_status\": \"pending\",\n        \"discount_code\": \"\",\n        \"fulfillment_mode\": \"pickup\",\n        \"instructions\": \"\",\n        \"is_edit\": false,\n        \"is_instant_order\": true,\n        \"item_level_charges\": 0,\n        \"item_level_discount\": 0,\n        \"item_level_taxes\": 6.550000000000001,\n        \"location_ref_id\": \"139213\",\n        \"order_level_charges\": 0,\n        \"order_level_discount\": 0,\n        \"order_no\": \"614958\",\n        \"prep_time_details\": {},\n        \"restaurant_name\": \"\",\n        \"sub_total\": 65.66999999999999,\n        \"total\": 72.21999999999998,\n        \"total_charges\": 0,\n        \"total_discount\": 0,\n        \"total_taxes\": 6.550000000000001\n    },\n    \"payment\": {\n        \"amount_balance\": 0,\n        \"amount_paid\": 72.21999999999998,\n        \"mode\": null,\n        \"status\": \"pending\"\n    }\n}",
+        "externalPlatform": {
+          "id": "614958",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 903465770,
+          "name": "Jiten",
+          "address1": "Pickup Order - No Address Required, ",
+          "address2": null,
+          "city": "Restaurant Location",
+          "pin": "",
+          "subLocality": "",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46463901,
+          "firstName": "Jipan",
+          "lastName": "",
+          "phone": "9780032269",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496247,
+            "title": "Breakfast Bundle",
+            "price": 62.43000000000001,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 62.43,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709578",
+                "title": "Plain",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709607",
+                "title": "Plain Cream Cheese",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709626",
+                "title": "House Blend",
+                "price": "24.99",
+                "priceAtLocation": 24.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709581",
+                "title": "Blueberry",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709624",
+                "title": "Cinnamon Chip",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709615",
+                "title": "Strawberry",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709591",
+                "title": "Gluten Free",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709601",
+                "title": "Sesame",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709578,
+                "quantity": 4,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709607,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709626,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709581,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709624,
+                "quantity": 4,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709615,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709591,
+                "quantity": 5,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709601,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496177,
+            "title": "Small Hot Coffee or Tea (12oz)",
+            "price": 3.24,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.0,
+            "total": 3.24,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709632",
+                "title": "Medium 16oz",
+                "price": "2.49",
+                "priceAtLocation": 2.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709378",
+                "title": "Dark Roast",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709382",
+                "title": "Half & Half",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709386",
+                "title": "Sugar",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709401",
+                "title": "Whipped Cream",
+                "price": "0.75",
+                "priceAtLocation": 0.75,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709632,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709378,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709382,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709386,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709401,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4323518523",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-07-13 15:46:26",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4323518628",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-13 15:46:30",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4323541563",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-13 16:01:30",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 911949158,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-21 07:31:52",
+        "created": "2025-07-21 07:16:52",
+        "updated": "2025-07-21 07:31:57",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.7,
+        "totalCharges": 0.0,
+        "subtotal": 6.98,
+        "payableAmount": 7.68,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-K2922404",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Westfield NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47444552,
+          "firstName": "Prime",
+          "lastName": "User",
+          "phone": "+17798764321",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496100,
+            "title": "Iced Lavender Blackberry Oat Milk Latte",
+            "price": 6.98,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.7,
+            "total": 7.68,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4327753240",
+                "title": "Tax",
+                "value": 0.7,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709013",
+                "title": "24oz",
+                "price": "2.49",
+                "priceAtLocation": 2.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709013,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4349529272",
+            "status": "PLACED",
+            "prevStatus": null,
+            "message": "Order placed",
+            "updatedBy": null,
+            "created": "2025-07-21 07:16:53",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4349529434",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-21 07:16:57",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4349568068",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-21 07:31:57",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

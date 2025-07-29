@@ -1,0 +1,216 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 912194906,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-21 12:36:26",
+        "created": "2025-07-21 12:21:28",
+        "updated": "2025-07-21 13:30:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 5.54,
+        "totalCharges": 0.0,
+        "subtotal": 55.46,
+        "payableAmount": 61.0,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "716352",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47451781,
+          "firstName": "Customer",
+          "lastName": "",
+          "phone": "+15134745957",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496122,
+            "title": "Dozen Bagels",
+            "price": 18.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.85,
+            "total": 20.34,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4328976164",
+                "title": "Tax",
+                "value": 1.85,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709165",
+                "title": "Plain",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709195",
+                "title": "Sliced",
+                "price": "1.5",
+                "priceAtLocation": 1.5,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709165,
+                "quantity": 12,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709195,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496127,
+            "title": "tub of manhattan bagel plain cream cheese",
+            "price": 5.99,
+            "quantity": 2,
+            "totalCharge": 0.0,
+            "totalTax": 1.2,
+            "total": 13.18,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4328976165",
+                "title": "Tax",
+                "value": 1.2,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496233,
+            "title": "Catering Coffee Service",
+            "price": 24.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 2.49,
+            "total": 27.48,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4328976166",
+                "title": "Tax",
+                "value": 2.49,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709520",
+                "title": "House Blend",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709520,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4350672467",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_ab2a0441f0e8. Value=0.61",
+            "updatedBy": null,
+            "created": "2025-07-21 12:21:29",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_ab2a0441f0e8",
+          "amount": 61,
+          "gwTxnId": "pi_3RnMSxRt38BwTo291Az1dY5X",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-21 | 16:21:26\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

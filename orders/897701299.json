@@ -1,0 +1,188 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 897701299,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-02 13:59:03",
+        "created": "2025-07-02 13:44:04",
+        "updated": "2025-07-02 13:44:04",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 1.45,
+        "totalCharges": 0.0,
+        "subtotal": 14.48,
+        "payableAmount": 15.93,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "PLACED",
+        "instructions": "",
+        "nextStates": [
+          "ACKNOWLEDGED",
+          "FOOD_READY",
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "ACKNOWLEDGED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-L2923455",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Westfield NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47057682,
+          "firstName": "Josh",
+          "lastName": "",
+          "phone": "+19084000817",
+          "email": "noemail@example.com",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496160,
+            "title": "Empire State Turkey Club",
+            "price": 10.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.1,
+            "total": 12.09,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4260285534",
+                "title": "Tax",
+                "value": 1.1,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709133",
+                "title": "Chips",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709345",
+                "title": "Everything Bagel",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709133,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709345,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496214,
+            "title": "Small Lemonade 16oz",
+            "price": 3.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.35,
+            "total": 3.84,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4260285535",
+                "title": "Tax",
+                "value": 0.35,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709451",
+                "title": "Classic Lemonade",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709451,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4283317101",
+            "status": "PLACED",
+            "prevStatus": null,
+            "message": "Order placed",
+            "updatedBy": null,
+            "created": "2025-07-02 13:44:04",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 908759982,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-17 09:35:52",
+        "created": "2025-07-17 09:20:55",
+        "updated": "2025-07-17 09:39:22",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.98,
+        "totalCharges": 0.0,
+        "subtotal": 9.78,
+        "payableAmount": 10.76,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "None at all.",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "195744",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46262429,
+          "firstName": "Varun",
+          "lastName": "",
+          "phone": "+16506618762",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496124,
+            "title": "Bagel With Spread",
+            "price": 3.79,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.38,
+            "total": 4.17,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4312234335",
+                "title": "Tax",
+                "value": 0.38,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709031",
+                "title": "Jalepeño Cheddar",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709210",
+                "title": "Plain Cream Cheese",
+                "price": "0.5",
+                "priceAtLocation": 0.5,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709031,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709210,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496208,
+            "title": "Small Cappuccino (12oz)",
+            "price": 5.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.6,
+            "total": 6.59,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4312234336",
+                "title": "Tax",
+                "value": 0.6,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709714",
+                "title": "Medium 16oz",
+                "price": "4.99",
+                "priceAtLocation": 4.99,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709430",
+                "title": "Oat Milk",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709714,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709430,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4334589882",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_5dd416ad8d14. Value=0.1076",
+            "updatedBy": null,
+            "created": "2025-07-17 09:20:55",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4334593296",
+            "status": "PLACED",
+            "prevStatus": "AWAITING_PAYMENT",
+            "message": "Setting order to 'Placed' after callback",
+            "updatedBy": null,
+            "created": "2025-07-17 09:21:56",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4334601595",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "test order",
+            "updatedBy": {
+              "id": 54232139,
+              "username": "tmp_32646829_qsym4",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-17 09:24:20",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4334656440",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-17 09:39:22",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_5dd416ad8d14",
+          "amount": 10,
+          "gwTxnId": "pi_3Rlrk1Rt38BwTo2901oslVh9",
+          "state": "completed",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-17 | 13:20:53\", \"extra_details\": {}}]}, {\"state\": \"completed\", \"comments\": null}]",
+          "paymentMethod": "Credit Card",
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

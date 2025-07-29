@@ -1,0 +1,189 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 909614271,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-18 11:23:07",
+        "created": "2025-07-18 11:08:09",
+        "updated": "2025-07-18 12:10:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 2.45,
+        "totalCharges": 0.0,
+        "subtotal": 24.48,
+        "payableAmount": 26.93,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "569163",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47389622,
+          "firstName": "Edward",
+          "lastName": "Richard",
+          "phone": "+12169566636",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496122,
+            "title": "Dozen Bagels",
+            "price": 18.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.85,
+            "total": 20.34,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4316325855",
+                "title": "Tax",
+                "value": 1.85,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709170",
+                "title": "Blueberry",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709175",
+                "title": "Cinnamon Raisin",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709195",
+                "title": "Sliced",
+                "price": "1.5",
+                "priceAtLocation": 1.5,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709170,
+                "quantity": 6,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709175,
+                "quantity": 6,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709195,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496127,
+            "title": "tub of manhattan bagel plain cream cheese",
+            "price": 5.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.6,
+            "total": 6.59,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4316325856",
+                "title": "Tax",
+                "value": 0.6,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4338536229",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_0c0ee9144ca6. Value=0.2693",
+            "updatedBy": null,
+            "created": "2025-07-18 11:08:10",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_0c0ee9144ca6",
+          "amount": 26,
+          "gwTxnId": "pi_3RmFtMRt38BwTo290DDhYGay",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-18 | 15:08:07\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

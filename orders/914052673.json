@@ -1,0 +1,170 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 914052673,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-24 08:46:58",
+        "created": "2025-07-24 08:37:00",
+        "updated": "2025-07-24 09:40:00",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.28,
+        "totalCharges": 0.0,
+        "subtotal": 4.24,
+        "payableAmount": 4.52,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "EXPIRED",
+        "instructions": "",
+        "nextStates": [],
+        "nextState": null,
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "592500",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 47501855,
+          "firstName": "Jack",
+          "lastName": "",
+          "phone": "+917240298957",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496227,
+            "title": "Banana",
+            "price": 1.25,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.08,
+            "total": 1.33,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4337522704",
+                "title": "Tax",
+                "value": 0.08,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496229,
+            "title": "Dog Bagel",
+            "price": 1.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.13,
+            "total": 2.12,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4337522705",
+                "title": "Tax",
+                "value": 0.13,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5496226,
+            "title": "Pickle",
+            "price": 1.0,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.07,
+            "total": 1.07,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4337522706",
+                "title": "Tax",
+                "value": 0.07,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4359325266",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_0ea1b34a65ff. Value=0.0452",
+            "updatedBy": null,
+            "created": "2025-07-24 08:37:00",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_0ea1b34a65ff",
+          "amount": 4,
+          "gwTxnId": "pi_3RoOONRt38BwTo291n96dslS",
+          "state": "initialized",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-24 | 12:36:58\", \"extra_details\": {}}]}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

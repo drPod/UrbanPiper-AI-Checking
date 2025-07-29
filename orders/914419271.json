@@ -1,0 +1,209 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 914419271,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-24 16:08:06",
+        "created": "2025-07-24 15:58:08",
+        "updated": "2025-07-24 16:08:45",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 1.13,
+        "totalCharges": 0.0,
+        "subtotal": 16.99,
+        "payableAmount": 18.12,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "None",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "766612",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46542339,
+          "firstName": "Jess",
+          "lastName": "Joe",
+          "phone": "+15402441130",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496122,
+            "title": "Dozen Bagels",
+            "price": 16.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.13,
+            "total": 18.12,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4339256194",
+                "title": "Tax",
+                "value": 1.13,
+                "rate": 6.625,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709165",
+                "title": "Plain",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709166",
+                "title": "Everything",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709175",
+                "title": "Cinnamon Raisin",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709183",
+                "title": "Poppy",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709166,
+                "quantity": 4,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709165,
+                "quantity": 4,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709175,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709183,
+                "quantity": 2,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4361056628",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_c75cd8c2d8d0. Value=0.1812",
+            "updatedBy": null,
+            "created": "2025-07-24 15:58:08",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4361057466",
+            "status": "PLACED",
+            "prevStatus": "AWAITING_PAYMENT",
+            "message": "Setting order to 'Placed' after callback",
+            "updatedBy": null,
+            "created": "2025-07-24 15:58:41",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4361057537",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-24 15:58:44",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4361071574",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-24 16:08:45",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_c75cd8c2d8d0",
+          "amount": 18,
+          "gwTxnId": "pi_3RoVHHRt38BwTo291ShAQVSl",
+          "state": "completed",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-24 | 19:58:06\", \"extra_details\": {}}]}, {\"state\": \"completed\", \"comments\": null}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

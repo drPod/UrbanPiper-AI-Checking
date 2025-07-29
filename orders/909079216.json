@@ -1,0 +1,287 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 909079216,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-17 15:50:17",
+        "created": "2025-07-17 15:35:20",
+        "updated": "2025-07-17 15:42:29",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 1.84,
+        "totalCharges": 0.0,
+        "subtotal": 18.48,
+        "payableAmount": 20.32,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "Remove the bacon and remove the avocado.",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "725238",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46542339,
+          "firstName": "Jess",
+          "lastName": "Joe",
+          "phone": "+15402441130",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496151,
+            "title": "Avocado BLT Sandwich",
+            "price": 18.48,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 1.84,
+            "total": 20.32,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4313754114",
+                "title": "Tax",
+                "value": 1.84,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709066",
+                "title": "Toasted",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709239",
+                "title": "Pepper Jack Cheese",
+                "price": "1.49",
+                "priceAtLocation": 1.49,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709334",
+                "title": "Spinach",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709335",
+                "title": "Cucumber",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709336",
+                "title": "Green Peppers",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709337",
+                "title": "Roasted Red Peppers",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709338",
+                "title": "Grilled Yellow Onions",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709339",
+                "title": "Jalapeno Peppers",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              },
+              {
+                "id": "5709340",
+                "title": "Capers",
+                "price": "1.0",
+                "priceAtLocation": 1.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709334,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709335,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709336,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709337,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709338,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709339,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709340,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709066,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              },
+              {
+                "id": 5709239,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4336101462",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_aad6c36df95c. Value=0.2032",
+            "updatedBy": null,
+            "created": "2025-07-17 15:35:20",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4336106660",
+            "status": "PLACED",
+            "prevStatus": "AWAITING_PAYMENT",
+            "message": "Setting order to 'Placed' after callback",
+            "updatedBy": null,
+            "created": "2025-07-17 15:38:24",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4336112810",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "test",
+            "updatedBy": {
+              "id": 54233976,
+              "username": "tmp_32646829_eu4dn",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-17 15:42:09",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4336113349",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "test",
+            "updatedBy": {
+              "id": 54233976,
+              "username": "tmp_32646829_eu4dn",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-17 15:42:29",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_aad6c36df95c",
+          "amount": 20,
+          "gwTxnId": "pi_3RlxaMRt38BwTo291UngS9nc",
+          "state": "completed",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-17 | 19:35:17\", \"extra_details\": {}}]}, {\"state\": \"completed\", \"comments\": null}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

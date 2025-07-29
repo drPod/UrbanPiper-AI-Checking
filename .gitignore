@@ -67,9 +67,6 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-orders/
-*.json
-*.csv
 logs/
 *.log
 

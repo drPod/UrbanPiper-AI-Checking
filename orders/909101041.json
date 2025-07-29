@@ -1,0 +1,151 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 909101041,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-17 17:03:22",
+        "created": "2025-07-17 16:48:24",
+        "updated": "2025-07-17 16:52:31",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 1.79,
+        "totalCharges": 0.0,
+        "subtotal": 17.97,
+        "payableAmount": 19.76,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "PLACED",
+        "instructions": "test",
+        "nextStates": [
+          "ACKNOWLEDGED",
+          "FOOD_READY",
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "ACKNOWLEDGED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-X2970077",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46279167,
+          "firstName": "Azaan",
+          "lastName": "Test",
+          "phone": "+12149402918",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496098,
+            "title": "Mint Pistachio Chillerz",
+            "price": 5.99,
+            "quantity": 3,
+            "totalCharge": 0.0,
+            "totalTax": 1.79,
+            "total": 19.76,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4313829409",
+                "title": "Tax",
+                "value": 1.79,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709010",
+                "title": "16oz",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709010,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4336202409",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_5d38f3637a2c. Value=0.1976",
+            "updatedBy": null,
+            "created": "2025-07-17 16:48:25",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4336207039",
+            "status": "PLACED",
+            "prevStatus": "AWAITING_PAYMENT",
+            "message": "Setting order to 'Placed' after callback",
+            "updatedBy": null,
+            "created": "2025-07-17 16:52:31",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_5d38f3637a2c",
+          "amount": 19,
+          "gwTxnId": "pi_3Rlyj5Rt38BwTo290UYJ3JyH",
+          "state": "completed",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-17 | 20:48:22\", \"extra_details\": {}}]}, {\"state\": \"completed\", \"comments\": null}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

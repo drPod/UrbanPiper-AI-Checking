@@ -1,0 +1,175 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 909055220,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-17 14:56:03",
+        "created": "2025-07-17 14:41:05",
+        "updated": "2025-07-17 15:35:15",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.15,
+        "totalCharges": 0.0,
+        "subtotal": 1.49,
+        "payableAmount": 1.64,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "PAYMENT_GATEWAY",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "Lightly toasted",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "692468",
+          "deliveryType": "SELF",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": null,
+          "name": "",
+          "address1": "",
+          "address2": "",
+          "city": "NA",
+          "pin": "NA",
+          "subLocality": "NA",
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46279167,
+          "firstName": "Azaan",
+          "lastName": "Test",
+          "phone": "+12149402918",
+          "email": "",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5496120,
+            "title": "Single Bagel",
+            "price": 1.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.15,
+            "total": 1.64,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4313662854",
+                "title": "Tax",
+                "value": 0.15,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5709137",
+                "title": "Everything",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": "",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5709137,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4335987754",
+            "status": "AWAITING_PAYMENT",
+            "prevStatus": null,
+            "message": "Online payment. Txn ID=up_txn_2d66db8e33e0. Value=0.0164",
+            "updatedBy": null,
+            "created": "2025-07-17 14:41:07",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4335989647",
+            "status": "PLACED",
+            "prevStatus": "AWAITING_PAYMENT",
+            "message": "Setting order to 'Placed' after callback",
+            "updatedBy": null,
+            "created": "2025-07-17 14:41:58",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4336100600",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "ack",
+            "updatedBy": {
+              "id": 54233976,
+              "username": "tmp_32646829_eu4dn",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-17 15:34:50",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4336101297",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "sms",
+            "updatedBy": {
+              "id": 54233976,
+              "username": "tmp_32646829_eu4dn",
+              "__typename": "UserType"
+            },
+            "created": "2025-07-17 15:35:15",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": {
+          "txnId": "up_txn_2d66db8e33e0",
+          "amount": 1,
+          "gwTxnId": "pi_3RlwjsRt38BwTo291sxGBzj4",
+          "state": "completed",
+          "comments": "",
+          "history": "[{\"state\": \"initialized\", \"comments\": [{\"msg\": \"initiated - 2025-07-17 | 18:41:04\", \"extra_details\": {}}]}, {\"state\": \"completed\", \"comments\": null}]",
+          "paymentMethod": null,
+          "__typename": "PaymentTransactionType"
+        },
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}

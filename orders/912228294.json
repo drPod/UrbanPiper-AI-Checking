@@ -1,0 +1,174 @@
+{
+  "data": {
+    "data": {
+      "order": {
+        "id": 912228294,
+        "type": "pickup",
+        "merchantRefId": null,
+        "deliveryDate": "2025-07-21 14:01:15",
+        "created": "2025-07-21 13:01:16",
+        "updated": "2025-07-21 13:16:20",
+        "timeSlotStart": null,
+        "timeSlotEnd": null,
+        "discount": 0.0,
+        "totalTaxes": 0.95,
+        "totalCharges": 0.0,
+        "subtotal": 9.48,
+        "payableAmount": 10.43,
+        "walletCreditApplied": 0.0,
+        "paymentMode": "CASH",
+        "channel": "PHONEORDER",
+        "channelLogo": "https://cdn.urbanpiper.com/media/platforms/images.jpeg",
+        "status": "FOOD_READY",
+        "instructions": "",
+        "nextStates": [
+          "DISPATCHED",
+          "COMPLETED",
+          "CANCELLED"
+        ],
+        "nextState": "DISPATCHED",
+        "couponText": null,
+        "aggregatorPayload": null,
+        "externalPlatform": {
+          "id": "UP-F2911192",
+          "deliveryType": "PICKUP",
+          "bizPlatform": {
+            "platform": {
+              "name": "phoneorder",
+              "__typename": "OrderingPlatformType"
+            },
+            "__typename": "BizOrderingPlatformType"
+          },
+          "__typename": "PlatformOrderType"
+        },
+        "taxes": [],
+        "charges": [],
+        "address": {
+          "id": 909320591,
+          "name": "Jasem",
+          "address1": "None, None",
+          "address2": null,
+          "city": null,
+          "pin": null,
+          "subLocality": null,
+          "__typename": "OrderAddressType"
+        },
+        "store": {
+          "title": "Union NJ",
+          "brand": null,
+          "__typename": "BizLocationType"
+        },
+        "customer": {
+          "id": 46279168,
+          "firstName": "Phoneorder",
+          "lastName": "User",
+          "phone": "6077257678",
+          "email": "phoneorder_dflt_user@email.com",
+          "__typename": "CustomerType"
+        },
+        "items": [
+          {
+            "id": 5655379,
+            "title": "Mint Pistachio Chillerz",
+            "price": 5.99,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.6,
+            "total": 6.59,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4329128127",
+                "title": "Tax",
+                "value": 0.6,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [
+              {
+                "id": "5901268",
+                "title": "16oz",
+                "price": "0.0",
+                "priceAtLocation": 0.0,
+                "weight": null,
+                "description": " ",
+                "__typename": "BizItemOptionType"
+              }
+            ],
+            "orderItemOptions": [
+              {
+                "id": 5901268,
+                "quantity": 1,
+                "__typename": "OrderItemOptionsType"
+              }
+            ],
+            "__typename": "OrderItemType"
+          },
+          {
+            "id": 5655382,
+            "title": "Fruity Rice Crispy Treat",
+            "price": 3.49,
+            "quantity": 1,
+            "totalCharge": 0.0,
+            "totalTax": 0.35,
+            "total": 3.84,
+            "discount": 0.0,
+            "discountCode": null,
+            "instructions": null,
+            "taxes": [
+              {
+                "id": "4329128128",
+                "title": "Tax",
+                "value": 0.35,
+                "rate": 9.98,
+                "__typename": "BillComponentValueType"
+              }
+            ],
+            "charges": [],
+            "optionsToAdd": [],
+            "orderItemOptions": [],
+            "__typename": "OrderItemType"
+          }
+        ],
+        "statusUpdates": [
+          {
+            "id": "4350838905",
+            "status": "PLACED",
+            "prevStatus": "PLACED",
+            "message": null,
+            "updatedBy": null,
+            "created": "2025-07-21 13:01:16",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4350839097",
+            "status": "ACKNOWLEDGED",
+            "prevStatus": "PLACED",
+            "message": "auto-ack triggered",
+            "updatedBy": null,
+            "created": "2025-07-21 13:01:19",
+            "__typename": "OrderStatusUpdateType"
+          },
+          {
+            "id": "4350893581",
+            "status": "FOOD_READY",
+            "prevStatus": "ACKNOWLEDGED",
+            "message": "auto-mfr triggered",
+            "updatedBy": null,
+            "created": "2025-07-21 13:16:20",
+            "__typename": "OrderStatusUpdateType"
+          }
+        ],
+        "delivery": null,
+        "paymentTransaction": null,
+        "parentOrder": null,
+        "childOrderId": null,
+        "__typename": "OrderType"
+      }
+    }
+  }
+}
